@@ -1,0 +1,45 @@
+body {
+	background: rgb(196, 190, 190);
+}
+h1 {
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-family: "Gochi Hand", cursive;
+	font-size: 30px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	margin-left: 200px;
+	margin-top: 40px;
+	float: right;
+}
+
+.postcard {
+	background: white;
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	display: block;
+}
+
+.postcard-header {
+	display: inline-flex;
+}
+
+.header {
+	width: 450px;
+	display: inline;
+}
+
+.postcard-body {
+	display: flex;
+	margin-left: 20px;
+}
+button {
+	margin: auto;
+	display: block;
+	font-family: "Covered By Your Grace", cursive;
+}
